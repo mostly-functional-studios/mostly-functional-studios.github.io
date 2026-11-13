@@ -674,7 +674,13 @@ h1,h2,h3,p {
   color:var(--green)
 }
 .privacy-main .legal-header h1 {
-  font-size:clamp(32px,7vw,78px)
+  font-size:clamp(32px,7vw,78px);
+  overflow-wrap:anywhere
+}
+.privacy-toc>p {
+  color:var(--green);
+  font:800 11px/1.5 ui-monospace,SFMono-Regular,Consolas,monospace;
+  letter-spacing:.13em
 }
 .privacy-toc ul {
   display:grid;
@@ -686,7 +692,12 @@ h1,h2,h3,p {
 }
 .privacy-toc a {
   display:inline-block;
-  padding:6px 0
+  padding:6px 0;
+  font-size:14px;
+  text-underline-offset:4px
+}
+.privacy-toc a:hover {
+  color:var(--green-soft)
 }
 .privacy-policy {
   overflow-wrap:anywhere
@@ -701,6 +712,9 @@ h1,h2,h3,p {
 }
 .privacy-policy h2 {
   margin-top:14px
+}
+.privacy-policy .section-kicker {
+  margin-bottom:14px
 }
 .privacy-policy ul {
   padding-left:22px
