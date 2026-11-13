@@ -673,6 +673,38 @@ h1,h2,h3,p {
   text-decoration:none;
   color:var(--green)
 }
+.privacy-main .legal-header h1 {
+  font-size:clamp(32px,7vw,78px)
+}
+.privacy-toc ul {
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));
+  gap:4px 24px;
+  list-style:none;
+  padding:0;
+  margin:0
+}
+.privacy-toc a {
+  display:inline-block;
+  padding:6px 0
+}
+.privacy-policy {
+  overflow-wrap:anywhere
+}
+.privacy-policy section {
+  scroll-margin-top:24px
+}
+.privacy-policy section + section {
+  border-top:1px solid var(--line);
+  margin-top:34px;
+  padding-top:34px
+}
+.privacy-policy h2 {
+  margin-top:14px
+}
+.privacy-policy ul {
+  padding-left:22px
+}
 .error-number {
   font-size:clamp(120px,22vw,290px);
   color:var(--green);
