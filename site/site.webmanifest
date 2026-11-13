@@ -1,0 +1,12 @@
+{
+  "name": "Mostly Functional Studios",
+  "short_name": "MFS",
+  "start_url": "./",
+  "display": "browser",
+  "theme_color": "#090b08",
+  "background_color": "#090b08",
+  "icons": [
+    { "src": "assets/img/favicon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "assets/img/logo-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
