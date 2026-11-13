@@ -20,7 +20,7 @@ Maintain this German-language static company website. Two of four teammates are 
 - For missing essential facts (legal identity, addresses, contact data, business claims), do not guess. Ask **one specific question** or leave the affected field unchanged and flag it.
 
 ## Verification and response
-- After site edits: `python3 scripts/check_ready.py --draft` checks files and links without requiring a completed legal imprint.
-- For actual release readiness: `python3 scripts/check_ready.py` must pass; only real, human-verified legal details can clear its release blocker.
+- After site edits: check affected files, internal links and assets.
+- For actual release readiness: verify legal/contact details with a human before publication.
 - If a browser preview is available, check the affected viewport(s); do not claim a visual check otherwise.
 - Finish briefly in German: **Geändert**, **Geprüft**, and only if needed **Noch offen**. No detailed implementation walkthrough unless requested.

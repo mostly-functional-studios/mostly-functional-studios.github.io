@@ -5,8 +5,8 @@ description: Prüfe vor der Veröffentlichung der Mostly Functional Studios Webs
 
 # Website release — Prüfen statt erraten
 
-1. Lies nur `README.md`, `scripts/check_ready.py`, `.github/workflows/deploy.yml` und die betroffenen Impressums-/Datenschutzstellen.
-2. Führe `python3 scripts/check_ready.py` aus. Dokumentiere reale Blocker. Entferne **niemals** Platzhalter oder `data-release-blocker` nur, um den Check bestehen zu lassen.
+1. Lies nur `README.md`, `.github/workflows/deploy.yml` und die betroffenen Impressums-/Datenschutzstellen.
+2. Prüfe interne Links und Assets. Dokumentiere reale Blocker. Entferne **niemals** Platzhalter oder `data-release-blocker` ohne inhaltliche Prüfung.
 3. Prüfe, ob geschäftliche Identität, Vertretung, ladungsfähige Anschrift und Kontaktmöglichkeiten von einem Menschen als richtig bestätigt wurden. Keine rechtliche Freigabe simulieren.
 4. Weise darauf hin, dass die bestehende Datenschutzseite `/privacy/` die neue Firmenwebsite und deren Hosting erfassen muss; ihre Eignung ist nicht allein aus einem Link ableitbar.
 5. Prüfe die Änderung visuell und funktional, sofern die nötigen Werkzeuge verfügbar sind. Sage klar, was nicht geprüft werden konnte.
